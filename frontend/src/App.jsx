@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
-import Signup from "./pages/Signup";
-import Login from "./pages/Login";
-import Todo from "./pages/Todo";
+import Signup from "./pages/SignUp.jsx";
+import Login from "./pages/Login.jsx";
+import Todo from "./pages/Todo.jsx";
 
 function App() {
   const token = localStorage.getItem("token");
